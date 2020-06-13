@@ -4,8 +4,7 @@
   def position_taken?(array, slot)
     if array[slot] == " " || array[slot] == "" || array[slot] == nil
     return false
-    elsif
-      (array[slot] == "X") || (array[slot] == "O") == true
+  else
     return true
     end
   end
