@@ -8,6 +8,7 @@
       (array[slot] == "X") || (array[slot] == "O") == true
     return true
     end
+  end
 
     
  def on_board?(num)   
@@ -21,7 +22,7 @@
  def valid_move?(board, index)
    if index.between?(0, 8) && !position_taken?(board, index)
   return true
-else
+ else
   return false
   end
 
